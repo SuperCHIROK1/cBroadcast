@@ -1,0 +1,8 @@
+# Messages - (EN)
+# by SuperCHIROK1
+
+prefix: "&7[&#ff3333&lBroadcast&7]"
+no-permission: "{PRFX} &cYou don't have permission to do that."
+usage: "{PRFX} &7Usage: &f/br <text>"
+reloaded: "{PRFX} &aPlugin successfully reloaded!"
+sending-successful: "{PRFX} &aMessage sent! &7({players_count} players)"

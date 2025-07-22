@@ -1,0 +1,8 @@
+# Messages - (RU)
+# by SuperCHIROK1
+
+prefix: "&7[&#ff3333&lОбьявление&7]"
+no-permission: "{PRFX} &cНет прав."
+usage: "{PRFX} &7Использование: &f/br <сообщение>"
+reloaded: "{PRFX} &aПлагин успешно перезагружен!"
+sending-successful: "{PRFX} &aСообщения отправлено! &7({players_count} игрокам)"

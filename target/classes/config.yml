@@ -1,0 +1,61 @@
+#      ____                      _               _
+#     |  _ \                    | |             | |
+#  ___| |_) |_ __ ___   __ _  __| | ___ __ _ ___| |_
+# / __|  _ <| '__/ _ \ / _` |/ _` |/ __/ _` / __| __|
+# | (__| |_) | | | (_) | (_| | (_| | (_| (_| \__ \ |_
+# \___|____/|_|  \___/ \__,_|\__,_|\___\__,_|___/\__|
+
+# ➤ By: SuperCHIROK1
+# ➤ GitHub: https://github.com/SuperCHIROK1/cBroadcast
+
+# | Plugin supports: CHAT, TITLE, BOSSBAR, ACTIONBAR
+
+# Language (EN / RU / DE)
+locale: DE
+
+# Character to replace with space in broadcast messages
+space-symbol: _
+
+# TITLE settings
+title:
+  enabled: true
+  title: "&#eb5234&l> &f&l{message}"
+  subtitle: "&7from &#eb5234&l{sender_name}"
+  fade-in: 1       # in seconds
+  stay: 6          # in seconds
+  fade-out: 1      # in seconds
+
+# CHAT settings
+chat:
+  enabled: true
+  messages:
+    - "&f "
+    - "&8[&#eb5234&lBroadcast&8] &f{message}"
+    - "&8&l> &7Sent by: &c{sender_name}"
+    - "&f "
+
+# SOUND settings
+sound:
+  enabled: true
+  id: BLOCK_NOTE_BLOCK_BELL
+  volume: 1
+  pitch: 1
+
+# BOSSBAR settings
+bossbar:
+  enabled: true
+  color: RED              # Available: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  style: SOLID            # Available: SOLID, SEGMENTED_6/10/12/20
+  text: "&#eb5234&lBroadcast &7» &f{message}"
+  stay-seconds: 10
+
+# ACTIONBAR settings
+actionbar:
+  enabled: true
+  text: "&7{sender_name}: &c&l{message}"
+  stay: 5                 # in seconds
+
+# Placeholders you can use:
+
+# {message}      - Broadcast message text
+# {sender_name}  - Name of the player who sent the message

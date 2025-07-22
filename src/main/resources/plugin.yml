@@ -1,0 +1,23 @@
+name: cBroadcast
+version: '${project.version}'
+main: me.superchirok1.cbroadcast.CBroadcast
+api-version: '1.16'
+prefix: cBroadcast
+load: STARTUP
+authors: [SuperCHIROK1]
+description: Broadcast Plugin
+softdepend: [PlaceholderAPI]
+
+commands:
+  cbr:
+    usage: /cbr
+  br:
+    usage: /br <text>
+    aliases:
+      - broadcast
+
+permissions:
+  cbr.reload:
+    description: Reload
+  cbr.broadcast:
+    description: Use /br
